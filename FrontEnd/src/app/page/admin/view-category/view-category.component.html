@@ -1,0 +1,18 @@
+
+        <div class="col-md-11">
+            <div class="custom-card">
+                <h1>All Categories</h1>
+                <ul class="custom-list">
+                    <li *ngFor="let c of categories" class="custom-list-item">
+                        <i class="material-icons">category</i>
+                        <div class="line">{{ c.categoryTitle }}: <br>
+                            {{ c.description }}
+                        </div>
+                        <hr class="divider">
+                    </li>
+                </ul>
+                <div class="container text-center mt20">
+                    <button class="btn btn-primary" routerLink="/dashboard/add-category">Add New Category</button>
+                </div>
+            </div>
+        </div>

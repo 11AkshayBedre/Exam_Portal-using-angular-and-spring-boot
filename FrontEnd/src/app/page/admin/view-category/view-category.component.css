@@ -1,0 +1,38 @@
+.custom-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .custom-list-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .material-icons {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .line {
+    flex-grow: 1;
+  }
+  
+  .divider {
+    margin: 10px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+  }
+  
+  .custom-button {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,17 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 100px; /* Adjust the margin as needed */
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.iframe-container {
+    min-width: 400px;
+    width: 100%;
+    min-height: 500px;
+}

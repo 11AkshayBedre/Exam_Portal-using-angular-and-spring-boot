@@ -1,0 +1,56 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Register Here</h3>
+
+                    <form class="row g-3" (ngSubmit)="formSubmit()">
+
+                        <div >
+                            <label for="username" class="form-label">UserName*</label>
+                            <input type="text" [(ngModel)]="user.userName" name="username" class="form-control"
+                                id="userName" placeholder="Enter Username" required>
+                        </div>
+
+                        <div >
+                            <label for="password" class="form-label">Password*</label>
+                            <input type="password" [(ngModel)]="user.password" name="password" class="form-control"
+                                id="password" placeholder="Enter password" required>
+                        </div>
+
+                        <div >
+                            <label for="firstName" class="form-label">First Name*</label>
+                            <input type="text" [(ngModel)]="user.firstName" name="firstName" class="form-control"
+                                id="firstName" placeholder="Enter firstName" required>
+                        </div>
+
+                        <div >
+                            <label for="lastName" class="form-label">Last Name*</label>
+                            <input type="text" [(ngModel)]="user.lastName" name="lastName" class="form-control"
+                                id="lastName" placeholder="Enter lastName" required>
+                        </div>
+
+                        <div >
+                            <label for="email" class="form-label">Email*</label>
+                            <input type="text" [(ngModel)]="user.emailId" name="email" class="form-control"
+                                id="emailId" placeholder="Enter email id" required>
+                        </div>
+
+                        <div >
+                            <label for="phoneNo" class="form-label">Phone Number*</label>
+                            <input type="number" [(ngModel)]="user.contactNo" name="phoneNo" class="form-control"
+                                id="contactNo" placeholder="Enter phone number" required>
+                        </div>
+
+                        <div class="col-12 mt-3 text-center">
+                            <button type="submit" class="btn btn-primary me-2" style="width: 90px;">Sign Up</button>
+                            <button type="reset" class="btn btn-warning " style="width: 90px;">Clear</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
