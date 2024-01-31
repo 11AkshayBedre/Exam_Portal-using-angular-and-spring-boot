@@ -81,7 +81,7 @@
 	                    			</goals>
                			 </execution> -->
 				<configuration>
-<!-- 					<mainClass>com.example.Backend.BackendApplication</mainClass> -->
+					<mainClass>com.example.Backend.BackendApplication</mainClass>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
